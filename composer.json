@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Codewars\\": "src/"
+    	}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codewars\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}
